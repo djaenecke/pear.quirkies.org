@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>Psr_Log</n>
+            <c>pear.quirkies.org</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT License</l>
+            <s>Port of the psr/log composer package</s>
+            <d>
+    The Psr_Log package provides the reference implementation of the logging
+    facilities defined in PSR-3. It is a port of the original psr/log Composer
+    package, enabling authors to declare the depenency in a package.xml file
+  </d>
+            <r xlink:href="/rest/r/psr_log" />
+        </p>
 
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.4";}}s:8:"optional";a:1:{s:7:"package";a:4:{s:4:"name";s:10:"Autoloader";s:7:"channel";s:21:"pear.phix-project.org";s:3:"min";s:5:"3.0.0";s:3:"max";s:10:"3.999.9999";}}}</d>
+        </deps>
+
+    </pi>
 </f>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Pimple</n>
+<c>pear.quirkies.org</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>MIT License</l>
+<s>Port of the Pimple DI container</s>
+<d>
+    The Pimple package provides the definition of the tiny dependency
+    injection container of the same name by Fabien Potencier, enabling
+    authors to declare the dependency in a package.xml file
+  </d>
+<r xlink:href="/rest/r/pimple" />
+</p>
